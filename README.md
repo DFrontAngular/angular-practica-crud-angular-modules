@@ -1,4 +1,4 @@
-# Proyecto CRUD Angular & Nest.js
+# Proyecto CRUD Angular & Nest.js (MODULES VERSION)
 
 Este proyecto está dividido en dos partes principales:
 
@@ -10,13 +10,13 @@ Este proyecto está dividido en dos partes principales:
 Asegúrate de tener instalados los siguientes programas en tu sistema:
 
 - [Visual Studio Code](https://code.visualstudio.com/).
-- [Node.js](https://nodejs.org) (versión 18 o superior recomendada).
+- [Node.js](https://nodejs.org) (^14.15.0 || ^16.10.0).
 - [npm](https://www.npmjs.com/) (incluido con Node.js).
-- [Angular CLI](https://angular.dev/tools/cli) (para ejecutar el frontend).
+- [Angular CLI](https://angular.dev/tools/cli) (se trata de una version de Angular 14 por lo que necesitarás esa version de CLI).
 - Puedes comprobar la compatibilidad de las versiones de Angular [aquí](https://angular.dev/reference/versions)
 
 ```bash
-npm install -g @angular/cli
+npm install -g @angular/cli@14
 ```
 
 ## Pasos para levantar el proyecto
@@ -279,9 +279,7 @@ Implementa un [interceptor](https://angular.dev/guide/http/interceptors) para a�
 
 ### Documenta todo lo que que consideres necesario y aporte valor (evita describir lo que hace el código línea a línea. Busca que sea un código auto explicativo).
 
-### Recomendable instalar el CDK de Angular para la utilización de los modales y el menú contextual.
-
-### Se trata de un proyecto en versión 19, por lo que se valorará la elección de las últimas funcionalidades (standalone components, nuevo template flow, signals, etc) pero no es requisito obligatorio.
+### Recomendable instalar el CDK de Angular (version 14) para la utilización de los modales y el menú contextual.
 
 ### BONUS: Conseguir un 80% de code coverage.
 
